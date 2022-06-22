@@ -48,6 +48,4 @@ zsh_add_plugin "hlissner/zsh-autopair"
 zsh_add_plugin "cagucor/git-prompt"
 
 # Aliases
-alias bat='batcat'
-alias cr='cd ~/.local/repos'
 alias python='python3'
