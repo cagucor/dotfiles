@@ -39,13 +39,19 @@ source "$ZDOTDIR/zsh-functions"
 zsh_add_file "zsh-exports"
 zsh_add_file "zsh-vim-mode"
 zsh_add_file "zsh-aliases"
-zsh_add_file "zsh-prompt"
+# zsh_add_file "zsh-prompt"
 
 # Plugins
 zsh_add_plugin "zsh-users/zsh-autosuggestions"
 zsh_add_plugin "zdharma-continuum/fast-syntax-highlighting"
 zsh_add_plugin "hlissner/zsh-autopair"
-zsh_add_plugin "cagucor/git-prompt"
+# zsh_add_plugin "cagucor/git-prompt"
+zsh_add_plugin "agkozak/zsh-z"
+
+eval "$(starship init zsh)"
 
 # Aliases
 alias python='python3'
+alias pip='pip3'
+alias bat='batcat'
+
